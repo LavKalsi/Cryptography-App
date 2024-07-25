@@ -54,7 +54,7 @@ class DecryptActivity : AppCompatActivity() {
         }
 
         saveToHistory.setOnClickListener {
-            saveToHistory("\nDecrypted: ${decryptedText.text}")
+            saveToHistory("\nDecrypted: ${decryptedText.text}\n ")
         }
     }
 
