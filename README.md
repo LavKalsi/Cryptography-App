@@ -13,13 +13,22 @@ A Kotlin-based Android Cryptography App that uses the AES algorithm for text enc
 
 ## Screenshots
 
-| Feature | Screenshot |
-|---------|-------------|
-| Home Screen | <img src="https://github.com/LavKalsi/CryptographyApp/blob/master/Screenshots/Home.jpg" width="200" height="446"/>|
-| Encrypt | <img src="https://github.com/LavKalsi/CryptographyApp/blob/master/Screenshots/Encrypt.jpg" width="200" height="45"/> |
-| Decrypt | <img src="https://github.com/LavKalsi/CryptographyApp/blob/master/Screenshots/Decrypt.jpg" width="200" height="92"/> |
-| History | <img src="https://github.com/LavKalsi/CryptographyApp/blob/master/Screenshots/History.jpg" width="200" height="65"/> |
-| Icon | <img src="https://github.com/LavKalsi/CryptographyApp/blob/master/Screenshots/Icon.png" width="200" height="200"/> |
+<table>
+  <tr>
+    <td align="center">Home Screen</td>
+    <td align="center">Encryption</td>
+    <td align="center">Decryption</td>
+    <td align="center">History</td>
+    <td align="center">Icon</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/LavKalsi/CryptographyApp/blob/master/Screenshots/Home.jpg" width="150" height="334"/></td>
+    <td><img src="https://github.com/LavKalsi/CryptographyApp/blob/master/Screenshots/Encrypt.jpg" width="150" height="334"/></td>
+    <td><img src="https://github.com/LavKalsi/CryptographyApp/blob/master/Screenshots/Decrypt.jpg" width="150" height="334"/></td>
+    <td><img src="https://github.com/LavKalsi/CryptographyApp/blob/master/Screenshots/History.jpg" width="150" height="334"/></td>
+    <td><img src="https://github.com/LavKalsi/CryptographyApp/blob/master/Screenshots/Icon.png" width="120" height="120"/></td>
+  </tr>
+</table>
 
 ## Installation
 
