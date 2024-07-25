@@ -1,0 +1,190 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="16dp">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decryptyption"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:padding="50px"/>
+
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/inputKey"
+        android:layout_marginTop="15px"
+        android:paddingHorizontal="30px"
+        android:background="@drawable/custom_input"
+        android:lines="4"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter key" />
+
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/inputEncryptedText"
+        android:paddingHorizontal="30px"
+        android:layout_marginVertical="15px"
+        android:background="@drawable/custom_input"
+        android:lines="4"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter encrypted text" />
+
+
+    <LinearLayout
+        android:id="@+id/decryptButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight=".5"
+        android:gravity="center"
+        android:background="@drawable/round_corners"
+        android:padding="16dp"
+        android:clickable="true"
+        android:layout_marginVertical="15px"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/decrypt" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decrypt Text"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:paddingTop="8dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/decryptedText"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="30px"
+        android:layout_height="wrap_content"
+        android:text="Decrypted Text Here"
+        android:lines="4"
+        android:textColor="@color/white"
+        android:elegantTextHeight="true"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:layout_marginTop="10px"
+        android:background="@drawable/round_corners"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15px"
+        >
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:id="@+id/copyDecryptedButton"
+            android:layout_width="match_parent"
+            android:layout_marginRight="10px"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/round_corners"
+            android:padding="16dp"
+            android:clickable="true"
+            android:layout_marginVertical="15px"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/copy" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Decrypted Text Copy"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:paddingTop="8dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:id="@+id/saveToHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10px"
+            android:layout_marginLeft="10px"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/round_corners"
+            android:padding="16dp"
+            android:clickable="true"
+            android:layout_marginVertical="15px"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/save" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save To History"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:paddingTop="8dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:id="@+id/goToEncryptActivity"
+            android:layout_marginLeft="10px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/round_corners"
+            android:padding="16dp"
+            android:clickable="true"
+            android:layout_marginVertical="15px"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/change_page" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Go To Encryption"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:paddingTop="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
