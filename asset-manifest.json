@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/CryptographyApp/static/css/main.81318136.css",
+    "main.js": "/CryptographyApp/static/js/main.21aff72c.js",
+    "static/js/453.d8053636.chunk.js": "/CryptographyApp/static/js/453.d8053636.chunk.js",
+    "static/media/Home.jpg": "/CryptographyApp/static/media/Home.c4ec03e38c2ac7dd95f5.jpg",
+    "static/media/frame.png": "/CryptographyApp/static/media/frame.c698262ac1b12f6196ac.png",
+    "index.html": "/CryptographyApp/index.html",
+    "main.81318136.css.map": "/CryptographyApp/static/css/main.81318136.css.map",
+    "main.21aff72c.js.map": "/CryptographyApp/static/js/main.21aff72c.js.map",
+    "453.d8053636.chunk.js.map": "/CryptographyApp/static/js/453.d8053636.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81318136.css",
+    "static/js/main.21aff72c.js"
+  ]
+}
